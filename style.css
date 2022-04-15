@@ -1,0 +1,8 @@
+/* Se usa para ajustar el tamaños de los elementos multimedia al 100% de su contenedor */
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+  height: auto;
+}
