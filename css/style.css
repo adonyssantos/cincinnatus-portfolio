@@ -63,3 +63,68 @@ header p {
   padding: 0.5em;
   background-color: #f2f2f2;
 }
+
+/* Article */
+article {
+  border-bottom: 1px solid #eee;
+  border-radius: 0.5em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: #333;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+article h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+article img {
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 0.5em;
+}
+
+article p {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+
+article span {
+  color: inherit;
+  font-size: inherit;
+  font-weight: bold;
+}
+
+article a {
+  color: inherit;
+  font-size: inherit;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+/* Button */
+.button {
+  background-color: #333;
+  border-radius: 0.5em;
+  color: #fff;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  background-color: #555;
+  color: #fff;
+}
+
+.button:active {
+  transform: translateY(3px);
+}
